@@ -8,7 +8,7 @@ This repository contains Python scripts for performing Monte Carlo simulations t
 
 This script simulates the future performance of a specific trading strategy based on its historical returns.
 
-- **Input**: `output.csv` (Historical returns of the trading system).
+- **Input**: `output.csv` (Historical returns of the trading strategy).
 - **Methodology**:
   - Calculates the mean and standard deviation of daily returns from the input data.
   - Generates 1,000 simulated price paths over a 365-day horizon using a normal distribution of returns.
@@ -22,7 +22,7 @@ A classic Monte Carlo simulation for a diversified portfolio of tech stocks (M7:
 - **Data Source**: Fetches real-time historical data using `yfinance`.
 - **Features**:
   - Simulates correlated stock returns using the Cholesky decomposition of the covariance matrix.
-  - Projects portfolio growth over time with mean aggregation.
+  - Portfolio growth over time with mean aggregation.
 
 ## Installation
 
